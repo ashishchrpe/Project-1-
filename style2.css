@@ -1,0 +1,451 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+#contents{
+    height:100vh;
+    /* width:100%; */
+    background-color: rgb(0, 0, 0);
+    background-size: 100%;
+    display: flex;
+    color:rgb(255, 255, 255,0.7);
+    text-align:justify;
+}
+.side_bar{
+    height:100%;
+    width: 35%;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.main_menu{
+    overflow: auto;
+    height: 100%;
+    width: 75%;
+    background-color:rgb(18, 18, 18);
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.music_slide{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    bottom: 0px;
+    background-color: rgb(18, 18, 18);
+}
+.side_bar.first{
+    background-color: white;
+    opacity: 0.25;
+    margin-left: 20px;
+}
+span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.frist{
+    display: flex;
+    flex-flow: column;
+    padding-top: 20px;
+    /* margin-left: 20px; */
+    padding-left: 15px;
+    height: 100px;
+    border-bottom: 10px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(128, 128, 128,0.1);
+}
+.second{
+    height: 100%;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding-top: 5px;  
+    padding-bottom: 10px;
+    justify-content: space-around;
+    background-color: rgb(128, 128, 128,0.1);
+}
+#function{
+    display: flex;
+    flex:inherit;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.secFrist{
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    background-color: rgb(128, 128, 128,0.1);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.secSecond{
+    padding-top: 10px;
+    margin-top: 15px;
+    background-color: rgb(128, 128, 128,0.1);
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+button{
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.second p{
+     margin-top: 15px;
+     opacity: 0.6;
+     font-size: 12px;
+}
+.search{
+    opacity: 0.75;
+    font-size: 20px;
+}
+a{
+    margin-left: 10px;
+    color:white;
+    text-decoration: none;
+}
+.home{
+    padding-bottom: 25px;
+    font-size: 20px;
+    opacity: 1;
+}
+.secFrist p{
+    font-size: 12px;
+    opacity: 0.75;
+}
+.second button{
+    font-weight: 600;
+}
+.stikynav{
+    position: sticky;
+    top: 0%;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    /* flex-flow:row; */
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    z-index: 2;
+}
+
+.Install span{
+    font-size: 15px;
+  
+}
+.btn button{
+    font-weight: 600;
+    padding: 5px;
+}
+.Install{
+    background-color: black;
+    padding-left:-5px;
+    padding-right: 15px;
+    color: white;
+    border: 2px solid black;
+}
+.card{
+    margin-left: 30px;
+    padding-left: 50px;
+}
+.mainfrist{
+    display: flex;
+    margin-top: 30px;
+    /* justify-content: space-around; */
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.mainfrist img{
+    height: 200px;
+    width: 200px;
+    padding: 5px 7px;
+    border-radius: 15px;
+}
+.newevent{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+  
+}
+.newevent img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 5px 7px;
+   
+}
+.newevent1{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.newevent2{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.newevent3{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.cardctn1{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.cardctn2{
+    height: 290px;
+    width: 213px;
+    margin-right: 15px;
+    border-radius: 10%;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.cardctn3{
+    height: 290px;
+    width: 213px;
+    margin-right: 15px;
+    border-radius: 10%; 
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.mainsec{
+    display: flex;
+    margin-top: 30px;
+    margin-left:30px;
+    margin-bottom: 15px;
+}
+.mainsec img{
+    height: 200px;
+    width: 200px;
+    padding: 5px 7px;
+    border-radius: 15px;
+}
+.Msec1{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.Msec2{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.Msec3{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.main3{
+    display: flex;
+    margin-top: 30px;
+    margin-left:30px;
+    margin-bottom: 15px;
+}
+.main3 img{
+    height: 200px;
+    width: 200px;
+    padding: 5px 7px;
+    border-radius: 15px;
+}
+.M-3-1{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.M-3-2{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.M-3-3{
+    height: 290px;
+    width: 213px;
+    border-radius: 10%;
+    margin-right: 15px;
+    background-color: rgb(24, 24, 24);
+    padding: 2px 10px;
+    opacity: 0.75;
+}
+.space{
+    height: 200px;
+    width: 100%;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.line{
+    height: 100px;
+    width: 80%;
+    border-top: 5px solid #181818;
+    opacity: 1;
+}
+.music_slide{
+    display: flex;
+}
+.left{
+    width: 25%;
+   
+}
+.midel{
+    width: 50%;
+}
+.right{
+    width: 25%; 
+}
+.midel img{
+    height: 16px;
+    width: 16px;
+    padding-left:25px;
+    padding-top: 5px;
+}
+.player{
+   display: flex;
+   align-self: center;
+   justify-content: center;
+   margin: 10px 0px;
+}
+.player_cont{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+ 
+}
+.range1{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.range1::-webkit-slider-runnable-track{
+    background-color: rgb(221, 221, 221);
+    border-radius: 100px;
+    height: 4px;
+}
+.range1::-webkit-slider-thumb{
+    appearance: none;
+    height: 14px;
+    width: 14px;
+    background-color: rgb(27, 215, 96);
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.right{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.right img{
+    height: 20px;
+    width: 20px;
+    padding:0px 10px;
+}
+.range2{
+    width: 30%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.range2::-webkit-slider-runnable-track{
+    background-color: rgb(221, 221, 221);
+    border-radius: 100px;
+    height: 3px;
+}
+.range2::-webkit-slider-thumb{
+    appearance: none;
+    height: 14px;
+    width: 14px;
+    background-color: rgb(27, 215, 96);
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.left{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.left img{
+    height: 20px;
+    width: 20px;
+    padding:0px 10px;
+}
+.song_name p{
+    font-size: small;
+    opacity: 0.65;
+    padding-left: 10px;
+}
+.play_btn{
+    opacity: 1;
+    height: 15px; 
+    width: 15px;
+    padding-bottom: 5px;
+    margin-left: 4px;
+    padding: 0px 15px;
+    font-size: 30px;
+    
+}
+h2{
+    margin-left: 15px;
+}
+p{
+    font-size: small;
+    opacity: 0.75;
+}
+div:hover{
+   opacity: 1;
+}
